@@ -131,3 +131,30 @@ header .title {
     padding: 30px 30px;
 }
 
+/* Portfolio */
+
+.portfolio {
+    background: lightgray;
+}
+
+.portfolio .box-image {
+    width: auto;
+    height: 200px;
+    margin-bottom: 0;
+}
+
+.portfolio img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .box-text {
+    background: #ffffff;
+}
+
+.portfolio .box {
+    background: #ffffff;
+    margin: 20px;
+    padding: 0;
+}
