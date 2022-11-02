@@ -1,0 +1,122 @@
+/* Global */
+
+body {
+    background: #ffffff;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+}
+
+.container {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section-title {
+    padding: 50px 0;
+}
+
+.section-title h3 {
+    text-transform: uppercase;
+    font-size: 62px;
+    line-height: 0.2;
+}
+
+.section-title h4 {
+    font-style: italic;
+    font-size: 24px;
+    color: grey;
+}
+
+p {
+    color: grey;
+}
+
+/* Header*/
+
+header {
+	text-align: center;	
+	background: url('https://cdn.pixabay.com/photo/2015/12/04/14/49/hand-1076597_960_720.jpg') 0/cover;
+	background-position: center center;
+    height: 100vh;
+	object-fit: cover;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+
+.company-name h3 {
+    font-family: 'Lucida Sans';
+    font-size: 24px;
+    font-style: italic;
+}
+
+.nav ul {
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav a:hover {
+    color: lightgrey;
+    transition: 1s;
+}
+
+.company-name h3 {
+    color: yellow;
+}
+
+header .title {
+    margin: auto;  
+    color: #ffffff;
+}
+
+.title-space {
+    display: flex;
+    height: 90%;
+    line-height: 0.5;
+}
+
+.title h2 {
+    font-size: 55px;
+    font-style: italic;
+}
+
+.title h1 {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.title .btn {
+    display: inline-block;
+    min-width: 240px;
+    margin: 14px auto 0 auto;
+    padding: 26px;
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: none;
+    background: yellow;
+    transition: all 1s;
+}
+
+.title .btn:hover {
+    background: yellow;
+    opacity: 0.7;
+}
