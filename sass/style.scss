@@ -24,11 +24,11 @@ body {
 .section-title h4 {
     font-style: italic;
     font-size: 24px;
-    color: grey;
+    color: #808080;
 }
 
 p {
-    color: grey;
+    color: #808080;
 }
 
 /* Header */
@@ -69,12 +69,12 @@ header {
 }
 
 .nav a:hover {
-    color: lightgrey;
+    color: #D3D3D3;
     transition: 1s;
 }
 
 .company-name h3 {
-    color: yellow;
+    color: #FFFF00;
 }
 
 header .title {
@@ -112,12 +112,12 @@ header .title {
     cursor: pointer;
     border-width: 2px;
     border-style: none;
-    background: yellow;
+    background: #FFFF00;
     transition: all 1s;
 }
 
 .title .btn:hover {
-    background: yellow;
+    background: #FFFF00;
     opacity: 0.7;
 }
 
@@ -125,8 +125,8 @@ header .title {
 
 .services i {
     font-size: 40px;
-    color: yellow;
-    border: 3px solid yellow;
+    color: #FFFF00;
+    border: 3px solid #FFFF00;
     border-radius: 50%;
     padding: 30px 30px;
 }
@@ -134,7 +134,7 @@ header .title {
 /* Portfolio */
 
 .portfolio {
-    background: lightgray;
+    background: #D3D3D3;
 }
 
 .portfolio .box-image {
@@ -157,4 +157,37 @@ header .title {
     background: #ffffff;
     margin: 20px;
     padding: 0;
+}
+
+/* Footer */
+
+footer ul {
+    text-align: center;
+    padding: 18px 0;
+}
+
+footer li {
+    display: inline;
+    font-size: 0;
+    padding: 10px;
+}
+
+i.fab {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    background: #FFFF00;
+    border-radius: 50%;
+    margin: 0 auto; 
+    color: #ffffff;
+    transition: all 1s;
+}
+
+i.fab:hover {
+    transform: scale(1.25); 
+}
+
+footer p {
+    text-align: left;
 }
