@@ -1,9 +1,20 @@
+
+/* Variables */
+
+$color-one: #ffffff;
+$color-two: #000000;
+$color-three: #F8F62F;
+$color-four: #808080;
+
+$font-logo: 'Pacifico', cursive , sans-serif;
+$font-text: 'Source Sans Pro', sans-serif;
+
 /* Global */
 
 body {
-    background: #ffffff;
+    background: $color-one;
     font-size: 16px;
-    font-family: 'Trebuchet MS';
+    font-family: $font-text;
 }
 
 .container {
@@ -24,11 +35,11 @@ body {
 .section-title h4 {
     font-style: italic;
     font-size: 24px;
-    color: #808080;
+    color: $color-four;
 }
 
 p {
-    color: #808080;
+    color: $color-four;
 }
 
 /* Header */
@@ -39,16 +50,17 @@ header {
 	background-position: center center;
     height: 100vh;
 	object-fit: cover;
-	color: #000000;
+	color: $color-two;
 	margin: 0;
 	padding: 0;
     overflow: hidden;
 }
 
 .company-name h3 {
-    font-family: 'Lucida Sans';
-    font-size: 24px;
+    font-family: $font-logo;
+    font-size: 28px;
     font-style: italic;
+    color: $color-three;
 }
 
 .nav ul {
@@ -63,23 +75,19 @@ header {
 
 .nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: $color-one;
     font-weight: bold;
     font-size: 24px;
 }
 
 .nav a:hover {
-    color: #D3D3D3;
+    color: $color-three;
     transition: 1s;
-}
-
-.company-name h3 {
-    color: #FFFF00;
 }
 
 header .title {
     margin: auto;  
-    color: #ffffff;
+    color: $color-one;
 }
 
 .title-space {
@@ -104,20 +112,20 @@ header .title {
     margin: 14px auto 0 auto;
     padding: 26px;
     border-radius: 5px;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 900;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
+    color: $color-one;
     cursor: pointer;
     border-width: 2px;
     border-style: none;
-    background: #FFFF00;
+    background: $color-three;
     transition: all 1s;
 }
 
 .title .btn:hover {
-    background: #FFFF00;
+    background: $color-three;
     opacity: 0.7;
 }
 
@@ -125,8 +133,8 @@ header .title {
 
 .services i {
     font-size: 40px;
-    color: #FFFF00;
-    border: 3px solid #FFFF00;
+    color: $color-three;
+    border: 3px solid $color-three;
     border-radius: 50%;
     padding: 30px 30px;
 }
@@ -150,11 +158,11 @@ header .title {
 }
 
 .portfolio .box-text {
-    background: #ffffff;
+    background: $color-one;
 }
 
 .portfolio .box {
-    background: #ffffff;
+    background: $color-one;
     margin: 20px;
     padding: 0;
 }
@@ -177,10 +185,10 @@ i.fab {
     height: 60px;
     line-height: 60px;
     font-size: 30px;
-    background: #FFFF00;
+    background: $color-three;
     border-radius: 50%;
     margin: 0 auto; 
-    color: #ffffff;
+    color: $color-one;
     transition: all 1s;
 }
 
