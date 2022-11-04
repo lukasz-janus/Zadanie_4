@@ -3,7 +3,7 @@
 
 $color-one: #ffffff;
 $color-two: #000000;
-$color-three: #F8F62F;
+$color-three: #EFC43C;
 $color-four: #808080;
 
 $font-logo: 'Pacifico', cursive , sans-serif;
@@ -19,11 +19,6 @@ body {
 
 .container {
     text-align: center;
-    padding: 30px 0;
-}
-
-.section-title {
-    padding: 50px 0;
 }
 
 .section-title h3 {
@@ -51,38 +46,34 @@ header {
     height: 100vh;
 	object-fit: cover;
 	color: $color-two;
-	margin: 0;
-	padding: 0;
     overflow: hidden;
 }
 
 .company-name h3 {
     font-family: $font-logo;
-    font-size: 28px;
+    font-size: 32px;
+    font-weight: 200;
     font-style: italic;
     color: $color-three;
 }
 
 .nav ul {
-    padding: 10px 0;
     list-style-type: none;
 }
 
 .nav li {
     display: inline-block;
-    padding: 0 20px;
 }
 
 .nav a {
     text-decoration: none;
     color: $color-one;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .nav a:hover {
-    color: $color-three;
-    transition: 1s;
+    border-bottom: 3px solid $color-one;
 }
 
 header .title {
@@ -109,8 +100,6 @@ header .title {
 .title .btn {
     display: inline-block;
     min-width: 240px;
-    margin: 14px auto 0 auto;
-    padding: 26px;
     border-radius: 5px;
     font-size: 32px;
     font-weight: 900;
@@ -137,7 +126,6 @@ header .title {
     color: $color-three;
     border: 3px solid $color-three;
     border-radius: 50%;
-    padding: 30px 30px;
 }
 
 /* Portfolio */
@@ -149,7 +137,6 @@ header .title {
 .portfolio .box-image {
     width: auto;
     height: 200px;
-    margin-bottom: 0;
 }
 
 .portfolio img {
@@ -164,21 +151,17 @@ header .title {
 
 .portfolio .box {
     background: $color-one;
-    margin: 20px;
-    padding: 0;
 }
 
 /* Footer */
 
 footer ul {
     text-align: center;
-    padding: 18px 0;
 }
 
 footer li {
     display: inline;
     font-size: 0;
-    padding: 10px;
 }
 
 i.fab {
@@ -188,7 +171,6 @@ i.fab {
     font-size: 30px;
     background: $color-three;
     border-radius: 50%;
-    margin: 0 auto; 
     color: $color-one;
     transition: all 1s;
 }
